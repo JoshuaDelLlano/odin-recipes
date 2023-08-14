@@ -1,13 +1,61 @@
-* {
+* {   
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 
 ul {
-    margin: 0;
-    padding: 0;
+    list-style-type: none;
+    margin-top: 8px;
+}
+
+li {
     list-style-type: none;
 }
 
-.instructions {
-    list-style-type: none;
+.bottom-image {
+    border: 4px solid;
+    height: auto;
+    margin-top: 2px;
+    max-width: 100%;
 }
+
+.container {
+    background-color: #8cddc5;
+    border: 4px solid #000000;
+    padding: 20px; 
+}
+
+.container img {
+    border: 4px solid rgb(0, 0, 0);
+    height: auto; 
+    max-width: 100%;
+}
+
+.title {
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    margin-top: 10px;
+}
+
+.main-card {
+    background-color: #8cddc5;
+    border: 4px solid black;
+    padding: 20px;
+}
+
+.main-img {
+    border: 4px solid rgb(0, 0, 0);
+    height: auto; 
+    max-width: 100%;
+}
+
+.return-link {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+
